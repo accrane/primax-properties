@@ -109,7 +109,7 @@ get_header(); ?>
 
 				<?php if(have_rows('professional_accreditation')) : ?>
 					<section class="education">
-					<h2>Professional Accredidations</h2>
+					<h2>Professional Accreditation</h2>
 					<?php while(have_rows('professional_accreditation')) : the_row(); 
 
 						$accred= get_sub_field('accreditation_item');
